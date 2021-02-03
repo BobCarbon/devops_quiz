@@ -20,7 +20,3 @@ def ommer(n):
         return 'aunty'
 
     return 'uncle'
-
-if __name__ == "__main__":
-    number = 0
-    print(ommer(number))
