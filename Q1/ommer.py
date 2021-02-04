@@ -10,10 +10,17 @@ def ommer(n):
     If given n is divisible by 3, return string 'aunty'.
     Else, return string 'uncle'.
     """
-    n = int(n)
+    # Run minor error handling
+    try:
+        n = int(n)
+    except TypeError:
+        print('Not a valid input/integer - terminating script.')
+        quit()
+
     if n == 0:
         return 'uncle'
 
+    # Use mod to check division by 3
     is_aunty = (n % 3) == 0
 
     if is_aunty:
