@@ -13,8 +13,8 @@ def ommer(n):
     # Run minor error handling
     try:
         n = int(n)
-    except TypeError:
-        print('Not a valid input/integer - terminating script.')
+    except ValueError:
+        print('Please input a number - terminating script.')
         quit()
 
     if n == 0:
