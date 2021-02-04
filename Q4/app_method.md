@@ -15,6 +15,6 @@ Alternative methods:
 2. Create new GET session
 3. Add desired server/endpoint/URL
 4. Go to 'Headers' tab
-    -. Remove any default/non-essential headers
+    - Remove any default/non-essential headers
     - Add header with key: "Pragma" and value: "no-cache"
 5. Send GET request
